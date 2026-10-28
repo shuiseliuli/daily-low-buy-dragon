@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.env
+
+# Output reports & data
+reports/*.json
+data/*.json
+!data/shell_stocks_pool.json
+!reports/.gitkeep
+!data/.gitkeep
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+.DS_Store
